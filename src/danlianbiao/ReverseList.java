@@ -29,7 +29,7 @@ public class ReverseList {
 //	     ListNode cur = head;
 //	        while (cur != null){
 //	            ListNode next = cur.next;
-//	            cur.next = pre;
+//	            cur.next = pre; 3
 //	            pre = cur;
 //	            cur = next;
 //	        }
@@ -60,6 +60,8 @@ class ReverseListSolution{
 	class ListNode{
 		int val;
 		ListNode next;
-		
+		ListNode(int x){
+			val=x;
+		}
 	}
 }
